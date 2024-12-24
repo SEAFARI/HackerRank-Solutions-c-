@@ -1,0 +1,18 @@
+  #include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+   int a;
+   long b;
+   char c;
+   float d;
+   double e;
+   
+   cin>>a>>b>>c>>ws>>d>>e;                //ws skips any leading whitespace before reading d
+   cout<<a<<"\n"<<b<<"\n"<<c<<"\n";
+   cout<<fixed<<setprecision(3)<<d<<"\n";    // endl or \n to use for new line
+   cout<<fixed<<setprecision(9)<<e<<"\n";
+    return 0;
+}
